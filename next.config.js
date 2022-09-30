@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-	sentry: {
+  sentry: {
     disableServerWebpackPlugin: true,
     disableClientWebpackPlugin: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
